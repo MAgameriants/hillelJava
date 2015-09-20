@@ -6,7 +6,7 @@ public class MyFirstClass {
                 String helloMessage = "Hello World";
                 System.out.println(helloMessage);
 
-                int myBirthYear = 1986
+                int myBirthYear = 1986;
 
                 int age = 28;
                 System.out.println("I'm " + age);
