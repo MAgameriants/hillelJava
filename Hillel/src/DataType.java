@@ -21,5 +21,14 @@ public class DataType {
         long l = 100;
         long l2 = 5000000000000L;
         float f = 2.5f;
+
+        boolean bool = true;
+        bool = false;
+
+        String s = "hello world";
+        char c = 'h';
+        byte b = 125;
+
+
     }
 }
