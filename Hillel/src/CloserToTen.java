@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class CloserToTen {
     public static void main(String args[]) {
         int firstInt;
-        System.out.println("Enter the first integer greater than 10");
+        System.out.println("Enter the first integer");
         Scanner in = new Scanner(System.in);
         firstInt = in.nextInt();
         int difference1 = Math.abs(firstInt - 10);
         int secondInt;
-        System.out.println("Enter the second integer greater than 10");
+        System.out.println("Enter the second integer");
         secondInt = in.nextInt();
         int difference2 = Math.abs(secondInt - 10);
 
