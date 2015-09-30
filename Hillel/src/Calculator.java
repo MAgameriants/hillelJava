@@ -38,7 +38,7 @@ public class Calculator {
         System.out.println("Enter operation with the double");
         operation2 = in.next();
 
-        switch (operation2) {
+       switch (operation2) {
             case "trunk":
                 double d1;
                 d1 = Math.floor(thirdNumber);
@@ -50,7 +50,6 @@ public class Calculator {
                 System.out.println("Result: " + (thirdNumber - d1));
                 break;
         }
-
     }
 }
 
